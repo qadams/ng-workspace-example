@@ -5,7 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --browsers=ChromeHeadless --watch=false --codeCoverage=true --source-map=false",
+    "test:my-first-app": "ng test my-first-app --browsers=ChromeHeadless --watch=false --codeCoverage=true --source-map=false",
+    "test:my-second-app": "ng test my-second-app --browsers=ChromeHeadless --watch=false --codeCoverage=true --source-map=false",
+    "test:my-lib": "ng test my-lib --browsers=ChromeHeadless --watch=false --codeCoverage=true --source-map=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
