@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:mfa": "ng serve my-first-app",
     "build": "ng build",
+    "build:ml": "ng build my-lib --prod",
     "test": "ng test --browsers=ChromeHeadless --watch=false --codeCoverage=true",
     "test:my-first-app": "ng test my-first-app --browsers=ChromeHeadless --watch=false --codeCoverage=true",
     "test:my-second-app": "ng test my-second-app --browsers=ChromeHeadless --watch=false --codeCoverage=true",
